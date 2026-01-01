@@ -8,12 +8,12 @@ This project aims to classify Twitter conversation threads as **"Rumor"** or **"
 
 * **Graph Structure:** Each conversation thread constitutes a graph where:
     * **Nodes:** Individual tweets.
-    * [cite_start]**Edges:** Interactions between tweets (Reply or Retweet)[cite: 21].
+    * **Edges:** Interactions between tweets (Reply or Retweet).
 * **Node Features:** We extracted **20 distinct features** for each node (tweet), including:
-    * [cite_start]**Temporal Delays:** Time passed since the original root tweet[cite: 22, 189].
-    * [cite_start]**Interaction Types:** Retweet vs. Reply information[cite: 190].
-    * [cite_start]**Structural Metrics:** Degree metrics, Root/Leaf status, and subtree information[cite: 191, 192].
-    * [cite_start]**Centrality Metrics:**[cite: 193].
+    * **Temporal Delays:** Time passed since the original root tweet.
+    * **Interaction Types:** Retweet vs. Reply information.
+    * **Structural Metrics:** Degree metrics, Root/Leaf status, and subtree information.
+    * **Centrality Metrics:**.
 
 ## Methodology
 
